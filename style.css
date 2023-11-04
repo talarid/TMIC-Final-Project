@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: peachpuff;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(https://images.unsplash.com/photo-1515823662972-da6a2e4d3002?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHBhc3RyaWVzfGVufDB8fDB8fHww)
+}
+
+.topnav {
+    background-color: hotpink;
+    word-spacing: 8px;
+    padding: 30px 50px;
+    font-size: 20px;
+
+}
+
+.header-image {
+    height: 400px;
+    width: 400px;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    background-color: blueviolet;
+
+}
