@@ -59,7 +59,10 @@ h2 {
     border-style: solid;
     border-width: 1px;
 
+}
 
+.topnav a:hover {
+    background-color: white;
 }
 
 .header-text {
@@ -70,6 +73,7 @@ h2 {
     font-family: 'Fuggles';
     font-size: 35px;
     color: white;
+    margin-bottom: 35px;
 }
 
 
@@ -77,18 +81,24 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: black;
-    font-size: 18px;
+    justify-content: center;
+    color: blanchedalmond;
+    font-size: 16px;
+    font-family: 'poppins';
+    margin-bottom: 40px;
 }
 
 .menu-items {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: ;
     color: black;
     height: 100%;
     width: 100%;
+    font-size: 17px;
+    margin-bottom: 55px;
 
 }
 
@@ -102,7 +112,7 @@ h2 {
     margin-top: 50px;
     font-family: 'poppins';
     font-size: 14px;
-    border-radius: 10px;
+    border-radius: 4px;
 }
 
 .align-menu {
@@ -112,15 +122,19 @@ h2 {
     align-items: center;
     align-content: space-between;
     border-style: solid;
+    border-radius: 2px;
     border-width: 1px;
-    background-color: rgb(171, 145, 104);
-
+    background-color: rgba(171, 145, 104, 0.501);
+    background-color: ;
+    opacity: ;
+    /*background-color: rgba(255, 255, 255, 0.308)*/
+    padding-right: 35px;
 }
 
 .logo {
-    height: 125px;
-    width: 150px;
-    opacity: 0.5;
+    height: 150px;
+    width: 175px;
+    opacity: 0.9;
 }
 
 .social-icons {
